@@ -84,7 +84,7 @@ public class CatTipoDocumento implements Serializable {
 
     @Override
     public String toString() {
-        return "com.servicont.scentidades.CatTipoDocumento[ codigo=" + codigo + " ]";
+        return descripcion;
     }
     
 }
