@@ -57,6 +57,11 @@ public class CatClienteVenta implements Serializable {
         this.fechaIngreso = fechaIngreso;
     }
 
+    public CatClienteVenta(CatClienteVentaPK catClienteVentaPK, String nombreCliente) {
+        this.catClienteVentaPK = catClienteVentaPK;
+        this.nombreCliente = nombreCliente;
+    }
+
     public CatClienteVenta(int codCliente, String nit) {
         this.catClienteVentaPK = new CatClienteVentaPK(codCliente, nit);
     }
