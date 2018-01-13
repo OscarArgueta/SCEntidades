@@ -5,10 +5,10 @@
     <class>com.serviconvi.scentidades.CatTipoDocumento</class>
     <class>com.serviconvi.scentidades.CatClienteVenta</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/serviconvi?zeroDateTimeBehavior=convertToNull"/>
-      <property name="javax.persistence.jdbc.user" value="usr_servi"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql3.freemysqlhosting.net:3306/sql3215515?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="sql3215515"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="S3rviconv1#"/>
+      <property name="javax.persistence.jdbc.password" value="cfZivFeSpz"/>
     </properties>
   </persistence-unit>
 </persistence>
