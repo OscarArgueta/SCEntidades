@@ -4,6 +4,7 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.serviconvi.scentidades.CatTipoDocumento</class>
     <class>com.serviconvi.scentidades.CatClienteVenta</class>
+    <class>com.serviconvi.scentidades.CatTipoVenta</class>
     <properties>
       <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/serviconvi?zeroDateTimeBehavior=convertToNull"/>-->        
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql3.freemysqlhosting.net:3306/sql3215515?zeroDateTimeBehavior=convertToNull"/>
